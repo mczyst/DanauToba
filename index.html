@@ -1,0 +1,167 @@
+<!DOCTYPE html><html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Danau Toba</title>
+
+        <link rel="stylesheet" href="assets/styles/style.css">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    </head>
+    <body>
+        <header>
+            <div class="jumbotron">
+                <h1>Danau Toba</h1>
+                <p>
+                Danau alami berukuran besar di Indonesia yang terletak di kaldera gunung supervulkan.   
+                </p>
+            </div>
+            <nav>
+                <ul class="sidebar">
+                    <li onclick=hideSidebar() ><a><svg class="change-color" xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a></li>
+                    <li><a href="#Sejarah">Sejarah</a></li>
+                    <li><a href="#Geologi">Geologi</a></li>
+                    <li><a href="#Penduduk">Penduduk</a></li>
+                    <li><a href="#Flora dan Fauna">Flora dan Fauna</a></li>
+                </ul>
+                <ul>
+                    <li class="hideOnMobile"><a href="#Sejarah">Sejarah</a></li>
+                    <li class="hideOnMobile"><a href="#Geologi">Geologi</a></li>
+                    <li class="hideOnMobile"><a href="#Penduduk">Penduduk</a></li>
+                    <li class="hideOnMobile"><a href="#Flora dan Fauna">Flora dan Fauna</a></li>
+                    <li class="menu-button" onclick=showSidebar() ><a><svg class="change-color" xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a></li>
+                </ul>
+            </nav>
+
+            <script>
+                function showSidebar(){
+                    const sidebar = document.querySelector('.sidebar')
+                    sidebar.style.display = 'flex'
+                }
+
+                function hideSidebar(){
+                    const sidebar = document.querySelector('.sidebar')
+                    sidebar.style.display = 'none'
+                }
+            </script>
+
+        </header>
+
+        <main>
+            <div id="content">
+                <article id="Sejarah" class="card">
+
+                    <h2>Sejarah</h2>
+            <img src="assets/images/toba-lake.jpg" alt="Sejarah" class="featured-image"/>
+
+                    <p>
+                        Danau Toba merupakan adalah danau terbesar di Indonesia sekaligus danau vulkanik terbesar di dunia.
+                        Danau Toba terbentuk sebagai akibat dari letusan gunung berapi super masif berkekuatan VEI 8 sekitar
+                        69.000 sampai 77.000 tahun yang lalu yang memicu perubahan iklim global. Metode penanggalan terkini
+                        yang berakurat menetapkan letusan tersebut terjadi sekitar 74.000 tahun yang lalu.Letusan ini merupakan
+                        letusan eksplosif terbesar di Bumi dalam 25 juta tahun terakhir. Menurut teori bencana Toba, letusan ini
+                        berdampak besar bagi populasi manusia di seluruh dunia; dampak letusan menewaskan sebagian besar manusia
+                        yang hidup waktu itu dan diyakini menyebabkan penyusutan populasi di Afrika Timur-Tengah dan India sehingga
+                        memengaruhi genetika populasi manusia di seluruh dunia sampai sekarang.
+                    </p>
+                    <p>
+                        Para ilmuwan sepakat bahwa letusan Toba memicu musim dingin vulkanik yang menyebabkan jatuhnya suhu dunia
+                        antara 3 hingga 5 °C (5,4 hingga 9,0 °F), dan hingga 15 °C (27 °F) di daerah lintang atas. Penelitian lanjutan
+                        di Danau Malawi, Afrika Timur, menemukan endapan debu letusan Toba, tetapi tidak menemukan bukti perubahan
+                        iklim besar di Afrika Timur.
+                    </p>
+                </article>
+
+                <article id="Geologi" class="card">
+                    <h2>Geologi</h2>
+                <img src="assets/images/toba-lake-aerial.jpg" alt="Geologi" class="featured-image"/>
+
+                    <p>
+                        Kompleks kaldera Toba di Sumatera Utara merupakan bagian dari Pegunungan Bukit Barisan. Kaldera Toba merupakan
+                        kaldera dengan letusan terbaru dari zaman kuarter dengan ukuran panjang 100 km dan lebar 30 km serta merupakan
+                        kaldera termuda keempat di dunia. Diperkirakan terdapat 2.800 km<sup>3</sup> material piroklastik dense-rock
+                        equivalent (DRE) yang dikenal sebagai tuff Toba Termuda (Youngest Toba Tuff, YTT) dan dikeluarkan lewat sebuah
+                        letusan yang menjadi salah satu letusan gunung api terbesar dalam sejarah geologi Bumi baru-baru ini. Dua buah
+                        setengah kubah kebangkitan muncul setelah letusan yang kini menjadi Pulau Samosir dan Blok Uluan, dipisahkan oleh
+                        sebuah graben membujur yang menjadi Selat Latung. Setidaknya terdapat empat kerucut vulkanik, empat gunung api
+                        strato, dan tiga kawah yang dapat diamati di dan di sekitar Danau Toba. Salah satu kerucut yaitu Kerucut Tanduk
+                        benua terletak di sisi barat laut kaldera dan hanya ditumbuhi oleh vegetasi berkepadatan rendah yang menunjukkan
+                        bahwa peristiwa pembentukannya relatif baru. Di sebelah barat danau, terdapat Dolok Pusubukit masih aktif
+                        mengeluarkan solfatara.
+                    </p>
+                </article>
+
+                <article id="Penduduk" class="card">
+                    <h2>Penduduk</h2>
+                <img src="assets/images/perkampungan-samosir.jpg" alt="Penduduk" class="featured-image"/>
+
+                    <p>
+                        Sebagian besar penduduk yang tinggal di sekitar Danau Toba adalah suku Batak. Rumah tradisional Batak dapat
+                        dikenali dari bentuk atapnya (ujungnya melengkung ke atas seperti perahu) dan warna cerah.
+                    </p>
+                    <p>
+                        Penduduk sekitar juga banyak menggantungkan hidup dengan mengembangkan perikanan air tawar. Dulu, wajah Desa
+                        Haranggaol, Kecamatan Haranggaol Horison yang dikenal sebagai tujuan wisata di Simalungun menjadi sentra ikan
+                        air tawar. Di sana, menurut sebuah laporan, belasan truk yang mengangkut puluhan ton ikan mas dan nila
+                        mondar-mandir di jalan desa.
+                    </p>
+                </article>
+
+                <article id="Flora dan Fauna" class="card">
+                    <h2>Flora dan Fauna</h2>
+                <img src="assets/images/flora-fauna.jpg" alt="Flora dan Fauna" class="featured-image"/>
+
+                    <p>
+                        Flora di danau ini meliputi berbagai jenis fitoplankton, makrofita kecil, makrofita mengambang, dan makrofita
+                        terbenam, sedangkan daratan sekitarnya ditutupi hutan hujan, termasuk jenis hutan pinus tropis Sumatra di daerah
+                        pegunungan yang lebih tinggi.
+                    </p>
+
+                    <p>
+                        Fauna di danau ini meliputi beberapa spesies zooplankton dan hewan bentos. Karena danau ini oligotrof (tidak kaya
+                        nutrien), ikan aslinya tergolong langka. Hanya ada dua ikan endemik di danau ini, yaitu Rasbora tobana (bisa disebut
+                        hampir endemik karena juga ditemukan di sungai-sungai yang bermuara di danau ini) dan Neolissochilus thienemanni,
+                        biasa disebut ikan Batak. Spesies yang disebutkan terakhir itu terancam oleh deforestasi (penyebab siltasi), polusi,
+                        perubahan ketinggian air, dan spesies ikan baru yang didatangkan ke danau ini.
+                    </p>
+                </article>
+            </div>
+
+            <aside>
+                <article class="profile card">
+                    <header>
+                        <h2>Profil Saya</h2>
+                        <figure>
+                            <img src="assets/images/foto-profil.jpg">
+                        </figure>
+                    </header>
+
+                    <section>
+                        <table>
+                            <tr>
+                                <th>Nama</th>
+                                <td>Michael Zefanya Sitompul</td>
+                              </tr>
+                              <tr>
+                                <th>Tempat, Tanggal lahir</th>
+                                <td>Jakarta, 4 September 2004</td>
+                              </tr>
+                              <tr>
+                                <th>Hobi</th>
+                                <td>Multimedia, Berenang, Fotografi, Videografi</td>
+                              </tr>
+                        </table>
+                    </section>
+                </article>
+            </aside>
+        </main>
+
+        <footer>
+            <p>Belajar Dasar Pemrograman Web &#169; 2019, Dicoding Academy</p>
+        </footer>
+    </body>
+</html>
